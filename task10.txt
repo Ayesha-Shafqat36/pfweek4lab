@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+void Name(string name);
+main()
+{
+  string name;
+  while(true)
+  {
+    Name(name);
+  
+ if (name == "irzam")
+  {
+   cout << "Irzam";
+  }
+ }
+}
+void Name(string name)
+{
+  string N;
+  cout<<"Enter your name=";
+  cin >>N;
+}

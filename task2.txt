@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+void add(int number1,int number2);
+void multiply(int number1,int number2);
+void minus(int number1,int number2);
+void divide(int number1,int number2);
+
+main()
+{
+    int number1,int number2;
+    char op;
+    cout << "Enter number1=";
+    cin << number1;
+    cout << "Enter number2";
+    cin << number2;
+    cout << "Operator(+,-,*,/);
+    cin << op;
+
+if (operator == +)
+  {
+    add(number1,number2);
+  }
+
+}
+
+void add(int number1,int number2);
+{
+ cout << "sum=" << number1+number2;
+}
